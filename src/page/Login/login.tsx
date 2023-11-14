@@ -47,13 +47,6 @@ export const Login = () => {
                 className="block text-sm font-medium leading-6 text-gray-200">
                 Senha
               </label>
-              <div className="text-sm">
-                <a
-                  href="#"
-                  className="font-semibold text-indigo-600 hover:text-indigo-500">
-                  Esqueceu a senha?
-                </a>
-              </div>
             </div>
             <div className="mt-2">
               <input
@@ -64,6 +57,13 @@ export const Login = () => {
                 required
                 className="block w-full rounded-md border-0 p-2 bg-gray-800 text-gray-200 shadow-sm ring-1 ring-inset ring-gray-700 placeholder:text-grey-600 focus:ring-2 focus:ring-inset focus:ring-gray-600 sm:text-sm sm:leading-6"
               />
+            </div>
+            <div className="text-sm">
+              <a
+                href="#"
+                className="font-semibold text-indigo-600 hover:text-indigo-500">
+                Esqueceu a senha?
+              </a>
             </div>
           </div>
 
